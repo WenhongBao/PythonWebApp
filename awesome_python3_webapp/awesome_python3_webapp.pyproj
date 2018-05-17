@@ -22,6 +22,28 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="awesome_python3_webapp.py" />
+    <Compile Include="www\app.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="backup\" />
+    <Folder Include="C:\Users\Administrator\Desktop\Python\awesome_python3_webapp\awesome_python3_webapp\backup\" />
+    <Folder Include="C:\Users\Administrator\Desktop\Python\awesome_python3_webapp\awesome_python3_webapp\conf\" />
+    <Folder Include="C:\Users\Administrator\Desktop\Python\awesome_python3_webapp\awesome_python3_webapp\dist\" />
+    <Folder Include="C:\Users\Administrator\Desktop\Python\awesome_python3_webapp\awesome_python3_webapp\www\" />
+    <Folder Include="C:\Users\Administrator\Desktop\Python\awesome_python3_webapp\awesome_python3_webapp\ios\" />
+    <Folder Include="C:\Users\Administrator\Desktop\Python\awesome_python3_webapp\awesome_python3_webapp\www\static\" />
+    <Folder Include="C:\Users\Administrator\Desktop\Python\awesome_python3_webapp\awesome_python3_webapp\www\templates\" />
+    <Folder Include="conf\" />
+    <Folder Include="dist\" />
+    <Folder Include="ios\" />
+    <Folder Include="www\" />
+    <Folder Include="www\static\" />
+    <Folder Include="www\templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LICENSE.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
