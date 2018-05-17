@@ -27,6 +27,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="backup\" />
     <Folder Include="C:\Users\Administrator\Desktop\Python\awesome_python3_webapp\awesome_python3_webapp\backup\" />
     <Folder Include="C:\Users\Administrator\Desktop\Python\awesome_python3_webapp\awesome_python3_webapp\conf\" />
     <Folder Include="C:\Users\Administrator\Desktop\Python\awesome_python3_webapp\awesome_python3_webapp\dist\" />
@@ -34,6 +35,12 @@
     <Folder Include="C:\Users\Administrator\Desktop\Python\awesome_python3_webapp\awesome_python3_webapp\ios\" />
     <Folder Include="C:\Users\Administrator\Desktop\Python\awesome_python3_webapp\awesome_python3_webapp\www\static\" />
     <Folder Include="C:\Users\Administrator\Desktop\Python\awesome_python3_webapp\awesome_python3_webapp\www\templates\" />
+    <Folder Include="conf\" />
+    <Folder Include="dist\" />
+    <Folder Include="ios\" />
+    <Folder Include="www\" />
+    <Folder Include="www\static\" />
+    <Folder Include="www\templates\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="LICENSE.txt" />
